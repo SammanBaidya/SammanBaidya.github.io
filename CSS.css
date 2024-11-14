@@ -32,21 +32,11 @@ a:hover {
   scrollbar-width: none; /* Firefox */
 }
 
-/* Hover and scaling effect for the icons */
+/* effect for the icons */
 .skill-icon {
     transition: transform 0.3s ease;
 }
 
 .skill-icon:hover {
     transform: scale(1.2) rotate(10deg);
-}
-
-/* Floating animation to give a subtle "cloud" effect */
-@keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-}
-
-.float {
-    animation: float 4s ease-in-out infinite;
 }
